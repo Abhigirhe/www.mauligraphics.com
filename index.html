@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indian Graphic Design Showcase</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>MAULI GRAPHICS</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="main">
+    <div class="intro">
+      <h2>Welcome to MAULI GRAPHICS</h2>
+      <p>Explore a curated collection of designs inspired by Indian culture, colors, and aesthetics. Feel free to upload your own creations!</p>
+    </div>
+
+    <div id="gallery" class="gallery">
+      <div class="item">
+        <img src="20240625_175058.jpg" alt="Indian Graphic Design 1">
+        <p>Design 1</p>
+      </div>
+      <div class="item">
+        <img src="20241221_201816.jpg" alt="Indian Graphic Design 2">
+        <p>Design 2</p>
+      </div>
+      <!-- More images will be dynamically added -->
+    </div>
+
+    <div class="upload-section">
+      <h3>Upload Your Design</h3>
+      <form id="uploadForm">
+        <input type="file" id="imageUpload" accept="image/*" required>
+        <button type="submit" id="uploadButton">Upload</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-info">
+      <h3>About the Creator</h3>
+      <p><strong>Name:</strong> Anand Gavande</p>
+      <p><strong>Profession:</strong> Graphics Designer</p>
+      <p><strong>Instagram ID:</strong> <a href="https://www.instagram.com/mr_anand_gawande_143" target="_blank">@mr_anand_gawande_143</a></p>
+      <h4>Some Amazing Works:</h4>
+      <div class="about-gallery">
+        <img src="20240625_175058.jpg" alt="Amazing Work 1">
+        <img src="20241221_201816.jpg" alt="Amazing Work 2">
+        <!-- More works of Anand can be added -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h3>Contact</h3>
+    <p><strong>Phone Number:</strong> 8010719622</p>
+  </section>
+
+  <footer>
+    <p>Directed by Anand Gavande</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
